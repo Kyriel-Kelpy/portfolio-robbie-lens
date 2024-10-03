@@ -98,9 +98,7 @@ textarea{
     }
 
     .div1-photo{
-        background-size: contain;
         object-fit : cover;
-        background-position: center;
         width: 200px;
         height : 200px;
     }
