@@ -74,7 +74,21 @@ header nav, footer{
     align-items: center;
 }
 
+@media screen and (max-width : 900px) {
 
-/* @media screen and (max-width : 1200px) {
-    
-} */
+    p, li{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    header, footer {
+        padding: 10px 25px;
+    }
+    nav a{margin-left: 10px;}
+    footer .lien-icone{margin-left: 10px;}
+
+    section {
+        padding: 20px;
+    }
+}
