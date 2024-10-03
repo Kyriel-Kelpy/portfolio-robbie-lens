@@ -9,7 +9,7 @@ font-family: 'Manrope', sans-serif;
 font-size: 1em;
 background-color: #1f2039;
 margin: 0;
-width: max-content;
+width: fit-content;
 }
 
 a {
