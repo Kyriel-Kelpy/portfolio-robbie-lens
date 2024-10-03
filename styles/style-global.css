@@ -77,10 +77,6 @@ header nav, footer{
 
 @media screen and (max-width : 900px) {
 
-    body{
-      width: fit-content;
-    }
-
     header nav {
     flex-direction: column;
     align-items: center;
