@@ -94,13 +94,11 @@ textarea{
     .accueil-introduction{
         display: flex;
         flex-direction: column;
-        width: 100%;    
+        max-width: 900px;    
     }
 
     .div1-photo{
         object-fit : cover;
-        width: 200px;
-        height : 200px;
     }
 
     .accueil-photos div{
