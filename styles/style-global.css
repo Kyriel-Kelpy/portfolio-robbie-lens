@@ -7,7 +7,7 @@ body {
 font-family: 'Manrope', sans-serif;
 font-size: 1em;
 background-color: #1f2039;
-width: 100%;
+
 }
 
 a {
@@ -76,6 +76,10 @@ header nav, footer{
 }
 
 @media screen and (max-width : 900px) {
+
+    body{
+      width: fit-content;
+    }
 
     p, li{
         font-size: 1em;
