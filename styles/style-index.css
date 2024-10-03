@@ -30,7 +30,7 @@ margin-bottom: 40px;
 .accueil-introduction{
     display: flex;
     flex-direction: row;
-    
+    max-width: 1000px;
     align-items: center;
     
 }
