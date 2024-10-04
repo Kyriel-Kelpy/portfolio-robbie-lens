@@ -1,4 +1,3 @@
-
 .div1 *{
 margin-bottom: 40px;
 }
@@ -26,8 +25,8 @@ margin-bottom: 40px;
 .accueil-introduction{
     display: flex;
     flex-direction: row;
-    max-width: 1000px;
-     margin: auto;
+    max-width: 1000px;  
+    margin: auto;
     align-items: center;
     
 }
@@ -75,7 +74,7 @@ textarea{
    
 }
 
-@media all and (orientation: portrait) {
+@media screen and (max-width : 996px) {
 
     .div1{
         margin: 0;
@@ -90,11 +89,7 @@ textarea{
     .accueil-introduction{
         display: flex;
         flex-direction: column;
-        max-width: 900px;    
-    }
-
-    .div1-photo{
-        object-fit : cover;
+        
     }
 
     .accueil-photos div{
